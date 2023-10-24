@@ -1,0 +1,53 @@
+.backgroundColorStatusActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    background-color: #86bc42;
+    font-weight: bold;
+    font-size: 11px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.backgroundColorStatusBlocked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    background-color: #ea4335;
+    font-weight: bold;
+    font-size: 11px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.statusCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonShadow {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #86bc42;
+    color: white;
+}
+
+.buttonShadow:hover {
+    box-shadow: 0 0 4px gold;
+    background-color: #1e7e34;
+    color: white;
+}
+
+.pagination__link, .pagination__link--number {
+    padding: 4px;
+    color: #90ae10;
+    cursor: pointer;
+}
